@@ -1,0 +1,22 @@
+Buff:
+  # 速度
+  Speed: 2
+  # 力量
+  Strength: 2
+  # 生命恢复
+  Regeneration: 2
+  # 抗性提升
+  Resistance: 2
+  # 防火
+  Fire_Resistance: 2
+  # 跳跃提升
+  Jump_Boost: 2
+  # 水下呼吸
+  Water_Breathing: 2
+  # 隐身
+  Invisibility: 2
+  # 夜视
+  Night_Vision: 2
+
+# 持续时间 0 为无限,单位分钟
+Time: 3
