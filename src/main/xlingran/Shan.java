@@ -80,12 +80,14 @@ public final class Shan extends JavaPlugin implements Listener {
                     
                     // 添加药水效果
                     // amplifier 是等级-1（0=I, 1=II, 2=III...）
+                    // 最后一个参数 true 表示强制覆盖已有效果
                     player.addPotionEffect(new PotionEffect(
                         effectType, 
                         durationTicks, 
                         amplifier - 1, 
                         false, // 不显示粒子效果
-                        false  // 不是图标效果
+                        false, // 不是图标效果
+                        true   // 强制覆盖已有效果
                     ));
                 }
             }
